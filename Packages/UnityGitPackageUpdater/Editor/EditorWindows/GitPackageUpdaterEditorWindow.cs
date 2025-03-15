@@ -103,7 +103,7 @@ namespace GitPackageUpdater
         private static void OpenWindow()
         {
             var gitPackageReinstallerWindow = (GitPackageUpdaterEditorWindow)GetWindow(
-                t: typeof(GitPackageUpdaterEditorWindow),
+                windowType: typeof(GitPackageUpdaterEditorWindow),
                 utility: false,
                 title: "Git Package Updater"
             );
